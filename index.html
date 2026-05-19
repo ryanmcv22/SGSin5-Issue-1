@@ -423,13 +423,13 @@
         </div>
       </div>
       <div class="meta-info">
-        <strong>SGSin5</strong>
+        <strong>THE HERALD</strong>
         <!-- EDIT: Update issue & date -->
-        Issue #1 · 8 May 2026
+        Issue #12 · 22 April 2026
       </div>
     </div>
     <div class="hero-title">
-      Week of<br><em>May the 4th</em>
+      This<br><em>Week.</em>
     </div>
     <p class="hero-sub">
       <!-- EDIT: Tagline / brief intro sentence -->
@@ -437,6 +437,21 @@
     </p>
   </div>
 </header>
+
+<!-- ═══════════════════════════════════════ TICKER ═══ -->
+<div class="ticker-wrap" role="marquee" aria-label="Quick headlines">
+  <div class="ticker-track">
+    <!-- EDIT: Add/remove quick headlines below (duplicate set keeps loop seamless) -->
+    <span>Upcoming: Careers Fair — Thursday Hall C</span>
+    <span>Spring Sports Trials Now Open</span>
+    <span>Art Show submissions due Friday</span>
+    <span>Library extended hours this week: 7am–7pm</span>
+    <span>Upcoming: Careers Fair — Thursday Hall C</span>
+    <span>Spring Sports Trials Now Open</span>
+    <span>Art Show submissions due Friday</span>
+    <span>Library extended hours this week: 7am–7pm</span>
+  </div>
+</div>
 
 <!-- ═══════════════════════════════════════ MAIN ═══ -->
 <main class="container">
@@ -503,20 +518,20 @@
             <!-- EDIT: Add/remove upcoming events below -->
             <ul style="list-style:none;display:flex;flex-direction:column;gap:12px;font-size:13px;">
               <li style="display:flex;gap:12px;align-items:flex-start;">
-                <span style="background:var(--red);color:#fff;border-radius:6px;padding:2px 10px;font-family:'Bebas Neue',sans-serif;letter-spacing:0.08em;font-size:12px;white-space:nowrap;">MON 18</span>
-                <span>Victoria Day — school closed</span>
+                <span style="background:var(--red);color:#fff;border-radius:6px;padding:2px 10px;font-family:'Bebas Neue',sans-serif;letter-spacing:0.08em;font-size:12px;white-space:nowrap;">THU 22</span>
+                <span>Careers Fair — Gymnasium, 12:00–15:00</span>
               </li>
               <li style="display:flex;gap:12px;align-items:flex-start;">
-                <span style="background:var(--red);color:#fff;border-radius:6px;padding:2px 10px;font-family:'Bebas Neue',sans-serif;letter-spacing:0.08em;font-size:12px;white-space:nowrap;">MON 25</span>
-                <span>Senior and Junior Art Exhibition</span>
+                <span style="background:var(--red);color:#fff;border-radius:6px;padding:2px 10px;font-family:'Bebas Neue',sans-serif;letter-spacing:0.08em;font-size:12px;white-space:nowrap;">FRI 23</span>
+                <span>Art Show Submissions Due</span>
               </li>
               <li style="display:flex;gap:12px;align-items:flex-start;">
-                <span style="background:var(--red);color:#fff;border-radius:6px;padding:2px 10px;font-family:'Bebas Neue',sans-serif;letter-spacing:0.08em;font-size:12px;white-space:nowrap;">FRI 29</span>
-                <span>Cocurriculars End</span>
+                <span style="background:var(--red);color:#fff;border-radius:6px;padding:2px 10px;font-family:'Bebas Neue',sans-serif;letter-spacing:0.08em;font-size:12px;white-space:nowrap;">MON 26</span>
+                <span>Leadership Programme Applications Open</span>
               </li>
               <li style="display:flex;gap:12px;align-items:flex-start;">
-                <span style="background:var(--red);color:#fff;border-radius:6px;padding:2px 10px;font-family:'Bebas Neue',sans-serif;letter-spacing:0.08em;font-size:12px;white-space:nowrap;">THU 11</span>
-                <span>Grad Ceremony</span>
+                <span style="background:var(--red);color:#fff;border-radius:6px;padding:2px 10px;font-family:'Bebas Neue',sans-serif;letter-spacing:0.08em;font-size:12px;white-space:nowrap;">WED 28</span>
+                <span>Senior Rugby vs Westbrook Academy — Home</span>
               </li>
             </ul>
           </div>
@@ -602,11 +617,11 @@
 
 <!-- ═══════════════════════════════════════ FOOTER ═══ -->
 <footer>
-  <strong>ST GEORGE'S SCHOOL — SGSin5</strong>
-  <!-- EDIT: Email / credits -->
-  Edited by Ryan McNagny-Valdez · <a href="mailto:ryan.mcnagnyvaldez26@stgeorges.bc.ca">ryan.mcnagnyvaldez26@stgeorges.bc.ca</a>
+  <strong>ST GEORGE'S SCHOOL — THE HERALD</strong>
+  <!-- EDIT: Contact / credits -->
+  Edited by the SGS Student Press Team · Contact: <a href="mailto:press@stgeorges.edu">press@stgeorges.edu</a>
   <br><br>
-  © 2026 St George's School. All rights reserved. Views expressed are those of student contributors.
+  © 2025 St George's School. All rights reserved. Views expressed are those of student contributors.
 </footer>
 
 <!-- ═══════════════════════════════════════ GAME JS ═══ -->
@@ -617,10 +632,10 @@
      Colours (difficulty order): #F9DF6D · #A0C35A · #B0C4EF · #BA81C5
      ══════════════════════════════════════════════════════ */
   const GROUPS = [
-    { name: "Things that are always late",   color: "#F9DF6D", textColor: "#111", words: ["BUS",    "REPLY",  "PIZZA",  "PERIOD"] },
-    { name: "Types of school drama",         color: "#A0C35A", textColor: "#111", words: ["GOSSIP", "AUDITION","BREAKUP","RUMOUR"] },
-    { name: "Things found in a backpack",    color: "#B0C4EF", textColor: "#111", words: ["PENCIL", "LUNCH",  "CHARGER","PASS"]   },
-    { name: "Words before 'work'",           color: "#BA81C5", textColor: "#fff", words: ["TEAM",   "HOME",   "COURSE", "NET"]    },
+    { name: "Things you say you'll do 'tomorrow'",  color: "#F9DF6D", textColor: "#111", words: ["STUDY",   "LAUNDRY", "REPLY",  "WORKOUT"] },
+    { name: "Things you lose at school",            color: "#A0C35A", textColor: "#111", words: ["SLEEP",   "PENCIL",  "WIFI",   "MOTIVATION"] },
+    { name: "Things that go viral",                 color: "#B0C4EF", textColor: "#111", words: ["MEME",    "COLD",    "BEEF",   "VIDEO"]   },
+    { name: "Words that follow 'dead'",             color: "#BA81C5", textColor: "#fff", words: ["LINE",    "POOL",    "LOCK",   "PAN"]     },
   ];
 
   /* ══════════════════════════════════════════════════════
