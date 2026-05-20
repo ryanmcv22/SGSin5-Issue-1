@@ -121,28 +121,6 @@
       font-weight: 300;
     }
 
-    /* ── TICKER ── */
-    .ticker-wrap {
-      background: var(--red-dark);
-      overflow: hidden;
-      white-space: nowrap;
-      padding: 10px 0;
-    }
-    .ticker-track {
-      display: inline-block;
-      animation: ticker 28s linear infinite;
-    }
-    .ticker-track span {
-      font-family: var(--ff-head);
-      font-size: 13px;
-      letter-spacing: 0.12em;
-      color: #fff;
-      padding: 0 48px;
-      opacity: 0.9;
-    }
-    .ticker-track span::before { content: '◆ '; color: var(--gold); }
-    @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-
     /* ── MAIN GRID ── */
     .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
 
@@ -437,21 +415,6 @@
     </p>
   </div>
 </header>
-
-<!-- ═══════════════════════════════════════ TICKER ═══ -->
-<div class="ticker-wrap" role="marquee" aria-label="Quick headlines">
-  <div class="ticker-track">
-    <!-- EDIT: Add/remove quick headlines below (duplicate set keeps loop seamless) -->
-    <span>Upcoming: Careers Fair — Thursday Hall C</span>
-    <span>Spring Sports Trials Now Open</span>
-    <span>Art Show submissions due Friday</span>
-    <span>Library extended hours this week: 7am–7pm</span>
-    <span>Upcoming: Careers Fair — Thursday Hall C</span>
-    <span>Spring Sports Trials Now Open</span>
-    <span>Art Show submissions due Friday</span>
-    <span>Library extended hours this week: 7am–7pm</span>
-  </div>
-</div>
 
 <!-- ═══════════════════════════════════════ MAIN ═══ -->
 <main class="container">
